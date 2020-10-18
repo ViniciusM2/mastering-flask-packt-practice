@@ -10,3 +10,4 @@ class DevConfig(Config):
     HOST = '0.0.0.0'
     DEBUG = True
     SQLALCHEMY_DATABASE_URI = "sqlite:///database.db"
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
